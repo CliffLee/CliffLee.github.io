@@ -1,0 +1,38 @@
+.err {
+
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+
+	&-warn {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		padding: 5em 2em;
+		-webkit-animation: rainbow 1s infinite; 
+		-ms-animation: rainbow 1s infinite;
+		animation: rainbow 1s infinite; 
+	}
+
+	&-img {
+		border-radius: 50%;
+	}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}	
+}
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}	
+}
