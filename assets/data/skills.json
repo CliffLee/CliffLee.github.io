@@ -1,0 +1,166 @@
+{
+	"data": [
+		{
+			"type": "lang",
+			"date": "May 2017",
+			"description": {
+				"what": "Learned",
+				"emphasis": "GoLang",
+				"info": "Picked up <em>GoLang</em>! I'm gonna be using it at <em>Qualtrics this Summer</em>, so I'm excited to start hacking with it!"
+			}
+		},
+		{
+			"type": "tech",
+			"date": "January 2017",
+			"description": {
+				"what": "Learned",
+				"emphasis": "ReactJS",
+				"info": "After weeks of putting it off and <em>CTC</em> warranting I learn it, I finally picked up <em>ReactJS</em>!"
+			}
+		},
+		{
+			"type": "course",
+			"date": "January 2017",
+			"description": {
+				"what": "Took",
+				"emphasis": "CSCI356 - Introduction to Computer Systems",
+				"info": "A great course that I would recommend to anyone at USC. The course essentially clarifies a lot of the lower level activities that are typically abstracted in other courses. Learned topics like <em>data storage, caching, paging, processes, etc</em>."
+			}
+		},
+		{
+			"type": "course",
+			"date": "January 2017",
+			"description": {
+				"what": "Took",
+				"emphasis": "CSCI310 - Software Engineering",
+				"info": "A look into the world of software management and development lifecycles. Learned about some interesting development paradigms and got to build some interesting projects."
+			}
+		},
+		{
+			"type": "tech NODEJS",
+			"date": "September 2016",
+			"description": {
+				"what": "Learned",
+				"emphasis": "NodeJS",
+				"info": "I finally realized <em>NodeJS</em> is the <em>one, true, master framework</em>. I decided to pick it up to supercharge my smaller scale webdev side projects."
+			}
+		},
+		{
+			"type": "course",
+			"date": "August 2016",
+			"description": {
+				"what": "Took",
+				"emphasis": "CSCI270 - Algorithms and Computing Theory",
+				"info": "Boy this was a doozy of a course. I decided to take the 'hard but educational' professor's version of the course and yes, I later realized that summary of his course was very accurate. I had a fun time in the class though, it literally felt like my brain was being itched while solving some of the problems."
+			}
+		},
+		{
+			"type": "course",
+			"date": "August 2016",
+			"description": {
+				"what": "Took",
+				"emphasis": "CSCI201 - Software Development",
+				"info": "A really cool course! It definitely heightened my understanding of <em>Java</em> and introduced me to a couple of higher level programming concepts that I hadn't really worked with before. I got a lot more experience in <em>multi-threaded, web, and scalable programming</em>."
+			}
+		},
+		{
+			"type": "lang",
+			"date": "August 2016",
+			"description": {
+				"what": "Learned",
+				"emphasis": "C",
+				"info": "Got to take a cool course in USC's EE department, where I had to learn <em>C</em> for <em>Arduino microprocessor programming</em>."
+			}
+		},
+		{
+			"type": "course",
+			"date": "August 2016",
+			"description": {
+				"what": "Took",
+				"emphasis": "EE109 - Introduction to Embedded Systems",
+				"info": "I had a blast with this class! It felt like I was playing rather than taking a college class, but I still got to learn a lot about <em>embedded systems</em>. Would highly recommend. Shoutouts to Mark Redekopp."
+			}
+		},
+		{
+			"type": "course",
+			"date": "January 2016",
+			"description": {
+				"what": "Took",
+				"emphasis": "CSCI170 - Discrete Methods in Computer Science",
+				"info": "I took this course in tandem with CSCI104 and boy was that a dark time. It was the first time I had ever taken a discrete course so it definitely took some getting used to."
+			}
+		},
+		{
+			"type": "course",
+			"date": "January 2016",
+			"description": {
+				"what": "Took",
+				"emphasis": "CSCI104 - Data Structures & Object Oriented Programming",
+				"info": "By far my favorite class thus far at USC. It was a great transition from introductory programming to more advanced design and consideration."
+			}
+		},
+		{
+			"type": "workflow",
+			"date": "September 2015",
+			"description": {
+				"what": "Learned",
+				"emphasis": "Git",
+				"info": "Truly a <em>pivotal</em> moment in my CS career. To give you some context, I was saving multiple versions of projects/assignments/whatever locally as gems like 'project1_1', 'project1_final', 'project1_updated', etc. Picked up git basics around this time and I've been continuously <em>improving my git workflow ever since</em>!"
+			}
+		},
+		{
+			"type": "lang",
+			"date": "September 2015",
+			"description": {
+				"what": "Learned",
+				"emphasis": "HTML, CSS, Javascript",
+				"info": "Around this point I started looking into exploring different kinds of programming. <em>Web programming</em> caught my eye."
+			}
+		},
+		{
+			"type": "tech",
+			"date": "August 2015",
+			"description": {
+				"what": "Picked up",
+				"emphasis": "bash scripting",
+				"info": "It felt like a pretty good time to start getting familiar with shell operation so I started learning <em>shell commands and scripting</em>!"
+			}
+		},
+		{
+			"type": "lang",
+			"date": "August 2015",
+			"description": {
+				"what": "Learned",
+				"emphasis": "C++",
+				"info": "I picked up <em>C++</em> in USC's introductory programming course and data structures course."
+			}
+		},
+		{
+			"type": "course",
+			"date": "August 2015",
+			"description": {
+				"what": "Took",
+				"emphasis": "CSCI103 - Introduction to Programming",
+				"info": "A nice foray into <em>C++</em>!"
+			}
+		},
+		{
+			"type": "lang",
+			"date": "June 2015",
+			"description": {
+				"what": "Learned",
+				"emphasis": "Python",
+				"info": "I took summer classes at <em>UC Berkeley</em> during this time. <em>Fun fact</em> I wasn't actually enrolled in CS courses, I just figured out where/when they were held and snuck in."
+			}
+		},
+		{
+			"type": "lang",
+			"date": "September 2014",
+			"description": {
+				"what": "Learned",
+				"emphasis": "Java",
+				"info": "I started my Computer Science journey with <em>Java</em> in my high school's <em>AP CS</em> course!"
+			}
+		}
+	]
+}

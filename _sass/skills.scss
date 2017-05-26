@@ -1,0 +1,79 @@
+// skills
+
+@import "vars";
+
+.skills {
+
+	&-container {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	&-experience {
+		li {
+			list-style-type: none;
+			margin: 1em 0;
+		}
+	}
+}
+
+.lang {
+	.left:before {
+		background: $lang;
+	}
+	em {
+		color: $lang;
+	}
+}
+
+.tech {
+	.left:before {
+		background: $tech;
+	}
+	em {
+		color: $tech;
+	}
+}
+
+.course {
+	.left:before {
+		background: $course;
+	}
+	em {
+		color: $course;
+	}
+}
+
+.workflow {
+	.left:before {
+		background: $workflow;
+	}
+	em {
+		color: $workflow;
+	}
+}
+
+.NODEJS {
+	em {
+		-webkit-animation: rainbow 1s infinite; 
+		-ms-animation: rainbow 1s infinite;
+		animation: rainbow 1s infinite; 
+	}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}	
+}
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}	
+}

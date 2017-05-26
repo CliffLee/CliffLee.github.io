@@ -1,0 +1,121 @@
+{
+	"data": [	
+		{
+			"type": "fun",
+			"date": "May 2017",
+			"description": {
+				"what": "Released",
+				"emphasis": "Personal Website",
+				"info": "I finally released my personal website!! After literally months of different revisions, starting from scratch, and all other sorts of procrastinating, I've finally done it!"
+			}
+		},
+		{
+			"type": "work",
+			"date": "May 2017",
+			"description": {
+				"what": "Software Engineering Intern at",
+				"emphasis": "Qualtrics",
+				"info": "I'm going to be <em>interning with Qualtrics this Summer</em> at their Provo, UT headquarters. I'll be learning and using cool technologies like <em>GoLang</em> and <em>Caddy</em> to develop for the <em>Fieldsets team</em>."
+			}
+		},
+		{
+			"type": "fun",
+			"date": "April 2017",
+			"description": {
+				"what": "Released",
+				"emphasis": "Litbot",
+				"info": "Litbot is a <em>Slack-bot</em> dedicated to collecting <em>temperature checks</em> (surveys that gauge club direction & mood) and reporting that information in a concise <em>dashboard</em>. I developed the <em>front-end in ReactJS</em> and sort of helped out on serverside routing for the API. If you're curious, check it out <a href='http://litbot.me'>here</a>."
+			}
+		},
+		{
+			"type": "event",
+			"date": "February 2017",
+			"description": {
+				"what": "Attended",
+				"emphasis": "TreeHacks 2017",
+				"info": "Attended <em>TreeHacks</em> @ <em>Stanford University</em>. Worked with two other hackers on <em>PawPrints</em>, a <em>mobile app</em> that sought to gamify and support the <em>lost pet finding process</em>. The app was built with <em>React Native</em> by our two front-end devs and with <em>NodeJS and Google Cloud Store</em> by me."
+			}
+		},
+		{
+			"type": "fun",
+			"date": "January 2017",
+			"description": {
+				"what": "Joined",
+				"emphasis": "CTC",
+				"info": "I joined <em>Code the Change</em> as a <em>front-end developer</em>! CTC helps develop <em>software for social impact organizations in Los Angeles</em>. Learn more about it <a href='http://ctcusc.com'>here</a>."
+			}
+		},
+		{
+			"type": "fun",
+			"date": "December 2016",
+			"description": {
+				"what": "Joined",
+				"emphasis": "ACM E-Board",
+				"info": "After working with <em>ACM</em> for a while, I ran for <em>treasurer</em>! And I got it! Now I get to be directly involved in ACM <em>club operation and events</em>. Learn more about ACM @ USC <a href='http://uscacm.org'>here</a>."
+			}
+		},
+		{
+			"type": "work",
+			"date": "September 2016",
+			"description": {
+				"what": "Undergraduate Research Assistant at",
+				"emphasis": "USC Robotic Embedded Systems Laboratory",
+				"info": "I joined <em>RESL</em> @ USC where I'm currently <em>developing drivers</em> for the open source <em>'Goby Acoustic Communications' software</em> and the <em>EvoLogics acoustic modem</em>. Ultimately, this software will be used by an <em>autonomous, aquatic drone to gather information about local bodies of water</em>!"
+			}
+		},
+		{
+			"type": "education",
+			"date": "August 2016",
+			"description": {
+				"what": "Teaching Assistant for",
+				"emphasis": "CSCI104 - Data Structures & Object Oriented Programming",
+				"info": "Data Structures was honestly one of my favorite courses at USC, in both content and just overall experience. After scoring pretty well in the class, I decided to apply and become a <em>course producer (undergrad TA)</em>."
+			}
+		},
+		{
+			"type": "fun",
+			"date": "January 2016",
+			"description": {
+				"what": "Joined",
+				"emphasis": "ACM^2",
+				"info": "I joined ACM^2, which is our <em>ACM chapter's equivalent of a 'club internship/training' program</em>! I helped plan and organize events like <em>'ACM Student Developer Showcase'</em>!"
+			}
+		},
+		{
+			"type": "event",
+			"date": "November 2015",
+			"description": {
+				"what": "Attended",
+				"emphasis": "CalHacks 2.0 2015",
+				"info": "Attended <em>CalHacks</em> @ <em>UC Berkeley</em>. Unfortunately we didn't complete our project, but I had a fun time meeting new people and learning more about hackathon community!"
+			}
+		},
+		{
+			"type": "event",
+			"date": "October 2015",
+			"description": {
+				"what": "Attended",
+				"emphasis": "SD Hacks 2015",
+				"info": "Attended <em>SDHacks</em> @ <em>UCSD</em>. Worked with three other hackers on <em>Vendope</em>, an <em>ios application</em> that sought to <em>match hobbyists and freelancers with local employers</em>."
+			}
+		},
+		{
+			"type": "work",
+			"date": "September 2015",
+			"description": {
+				"what": "Undergraduate Research Assistant at",
+				"emphasis": "USC Interaction Lab",
+				"info": "I joined the <em>Interaction Lab</em> @ USC, where I developed <em>webcam capture and RGB splitting modules in python</em>. These were later used to <em>train machine learning programs</em>."
+			}
+		},
+		{
+			"type": "education",
+			"date": "August 2015",
+			"description": {
+				"what": "Started school at",
+				"emphasis": "USC",
+				"info": "I started school at <em>USC</em> back in 2015. Fun fact, I actually applied as a Biology major, but this was because I applied before I took AP Computer Science and finally realized how fun the subject was."
+			}
+		}
+	]
+}

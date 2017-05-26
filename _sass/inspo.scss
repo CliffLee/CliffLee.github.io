@@ -1,0 +1,63 @@
+// inspo
+
+@import "vars";
+
+.inspo {
+
+	&-container {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	&-experience {
+		li {
+			list-style-type: none;
+			margin: 1em 0;
+		}
+	}
+}
+
+.cs {
+	.left:before {
+		background: $cs;
+	}
+
+	em a {
+		text-decoration: none;
+		color: $cs;
+	}
+
+	em {
+		color: $cs;
+	}
+}
+
+.art {
+	.left:before {
+		background: $art;
+	}
+
+	em a {
+		text-decoration: none;
+		color: $art;
+	}
+
+	em {
+		color: $art;
+	}
+}
+
+.personal {
+	.left:before {
+		background: $personal;
+	}
+
+	em a {
+		text-decoration: none;
+		color: $personal;
+	}
+
+	em {
+		color: $personal;
+	}
+}

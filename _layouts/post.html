@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<main class="post">
+	<nav class="post-nav">
+		<a href="{{ "/" | relative_url }}">Take me home!</a>
+		<a href="{{ site.url }}/blog">Blog Index</a>		
+	</nav>
+
+	<article class="post-article" itemscope itemtype="http://schema.org/BlogPosting">
+
+		<header class="post-header">
+			<h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+			<p class="post-meta">
+				<time datetime="{{ page.date | date_to_long_string }}" itemprop="datePublished">
+					{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+					{{ page.date | date: date_format }}
+				</time>
+				{% if page.author %}
+					• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+				{% endif %}</p>
+		</header>
+
+		<div class="post-content" itemprop="articleBody">
+			{{ content }}
+		</div>
+		
+</article>
+
+</main>
+
+<div class="scroll-top">TOP</div>
+
+<script type="text/javascript">
+document.querySelector('.scroll-top').addEventListener("click", function(event) {
+    scroll(0,0);
+});
+</script>

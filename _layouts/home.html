@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+	<meta charset="UTF-8">
+	<title>Clifford Lee</title>
+
+	<link rel="stylesheet" href="assets/main.css">
+
+</head>
+<body>
+
+	<div class="container">
+		
+		<div class="welcome">
+			<h1>Clifford Lee</h1>
+			<h2>Software Engineer & Student</h2>
+
+			<ul id="social-media">
+				<li><a href="assets/data/resume.pdf">Resume</a></li>
+				<li><a href="mailto:leecliff@usc.edu">Email</a></li>
+				<li><a href="http://github.com/CliffLee">Github</a></li>
+				<li><a href="http://linkedin.com/in/cliffordlee1997">LinkedIn</a></li>
+				<li><a href="http://twitter.com/CliffLee97">Twitter</a></li>
+				<li><a href="{{ site.baseurl }}{% link  blog/index.html %}">Blog</a></li>
+			</ul>
+
+			<p>Heyo! My name is Clifford Lee and I am a student, software engineer, and meme enthusiast.</p>
+		</div>		
+		
+		<div class="about">
+			<div class="about-expand expand">[+] ABOUT - Get to know me a little more</div>			
+			<div class="about-container hidden">
+				<div class="about-summary">
+					<p>
+						Greetings! My name is Clifford Lee and I like building cool things! I'm a student at the <span class="em">University of Southern California</span>, where I'm pursuing my degree in <span class="em">Computer Science B.S.</span> and graduating in <span class="em">2019</span>. In my time at USC, I've worked with organizations like USC's <span class="em">Viterbi School of Engineering</span>, <span class="em">Association for Computing Machinery</span>, <span class="em">Code the Change</span>, and many more. 
+					</p>
+					<br />
+					<p>
+						In terms of actual software creation, my interests are a little all over the place. I have particular interests in <span class="em">web development</span> and <span class="em">desktop application development</span>, but give me an idea, some technology that sounds cool, a little bit of time, and I could get into it.
+					</p>
+					<br />
+					<p>
+						More recently, away from the keyboard, I've been trying to explore a couple new (and old) hobbies of mine. I'm a <b>reasonably</b> persistent gym-goer. I'm a big fan of all things animal (big on dogs and lizards). I'm attempting to like the great outdoors one hike at a time. I'm also trying to stretch the old artsy muscles with some forays into sketching and guitar. I like a wide range of music and an even wider range of food.
+					</p>
+				</div>
+
+			</div>	
+		</div>
+		
+
+		<div class="timeline">
+			<div class="timeline-expand expand">[+] TIMELINE - A concise history of Clifford</div>
+			<div class="timeline-container hidden">
+				<label for="tl-filter">Filter events: </label>
+				<select name="tl-filter" class="timeline-filter filter">
+					<option value="all">ALL</option>
+					<option value="education">EDUCATION</option>
+					<option value="event">EVENT</option>
+					<option value="fun">FUN</option>
+					<option value="work">WORK</option>					
+				</select>
+				<ul class="timeline-experience"></ul>
+			</div>			
+		</div>
+
+		<div class="skills">
+			<div class="skills-expand expand">[+] SKILLS + BUZZWORDS - Disrupt! Infrastructure! NodeJS!</div>
+			<div class="skills-container hidden">
+				<label for="skl-filter">Filter skills: </label>
+				<select name="skl-filter" class="skills-filter filter">
+					<option value="all">ALL</option>
+					<option value="lang">LANGUAGES</option>
+					<option value="tech">TECHNOLOGIES</option>
+					<option value="course">COURSEWORK</option>
+					<option value="workflow">WORKFLOW</option>
+				</select>
+				<ul class="skills-experience"></ul>
+			</div>
+		</div>
+
+		<div class="inspo">
+			<div class="inspo-expand expand">[+] MOTIVATORS + INSPIRATORS - People, places, things, and ideas I find really cool</div>
+			<div class="inspo-container hidden">
+				<ul class="inspo-experience"></ul>
+			</div>
+		</div>
+
+		<div class="footer">
+			<p>Made with ❤️ by Clifford Lee</p>
+		</div>	
+
+	</div>
+
+	<script src="assets/js/main.js"></script>
+</body>
+</html>

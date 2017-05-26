@@ -1,0 +1,52 @@
+{
+	"data": [
+		{
+			"type": "personal",
+			"description": {
+				"name": "Alain de Botton",
+				"blurb": "Author, Philosopher, and Emotional Life Coach",
+				"info": "I first learned about Alain when I saw a random video suggestion on YouTube. His videos span a range of subjects ranging from building meaningful relationships to finding purpose, but at the end of the video the ultimate goal is trying to help viewers become better people. I've started reading a couple of his books and have found that a lot of his lessons really resonate with me."
+			}
+		},
+		{
+			"type": "art",
+			"description": {
+				"name": "Donald Glover",
+				"blurb": "Writer, Director, Actor, Musician",
+				"info": "Don Glover is a huge inspiration of mine. He's super talented and super successful at an unbelievably young age. I remember reading an article describing him as a Modern Day Renaissance Man and definitely goals. Plus, I love his work. Thirty Rock, Community, Childish Gambino, Atlanta, etc. are all quality projects."
+			}
+		},
+		{
+			"type": "cs",
+			"description": {
+				"name": "Ben Halpern",
+				"blurb": "Founder of dev.to",
+				"info": "Founder of one of my most visited websites. I really love the idea that dev.to was founded on, which is providing material for both beginner and experienced devs to read. For anyone suffering from unfortunate bouts of imposter syndrome like I was (and occasionally still do), check out <em><a href='http://dev.to'>dev.to</a></em>! Also check out this guy's <em><a href='http://benhalpern.com'>website</a></em> it's wild."
+			}
+		},
+		{
+			"type": "art",
+			"description": {
+				"name": "Casey Neistat",
+				"blurb": "YouTube Content Creator and Start-up Founder",
+				"info": "Admittedly I'd categorize Casey more as a content creator rather than a techy, but that's probably because I've only ever seen him through his YouTube channel. He's a vlogger that pushes out really high quality content on a regular basis and his story is really motivational!"
+			}
+		},
+		{
+			"type": "cs",
+			"description": {
+				"name": "Cassidy Williams",
+				"blurb": "Software Engineer & Tech Evangelist",
+				"info": "I really liked the look of her personal website and while browsing it for inspiration I learned a lot about the cool work she does in terms of promoting tech. If you get a chance you should definitely check <em><a href='http://cassidoo.co'>her work</a></em> out."
+			}
+		},
+		{
+			"type": "cs",
+			"description" :{
+				"name": "Linus Torvalds",
+				"blurb": "Creator of the Linux OS and Git version control",
+				"info": "I knew who Linus was for a while in terms of his projects. Being the creator of the Linux kernel and Git is pretty crazy already, but when I started watching some video interviews of him, it basically solidified my respect for him. On top of being a genius, he's also a huge proponent of open source which is something I really respect about him."
+			}
+		}
+	]
+}

@@ -1,0 +1,68 @@
+// timeline
+
+@import "vars";
+
+.timeline {
+
+	&-container {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	&-experience {
+		li {
+			list-style-type: none;
+			margin: 1em 0;
+		}
+	}
+}
+
+.left {
+	float: left;
+	min-width: 200px;
+
+	&:before {
+		content: '';
+		display: inline-block;
+		width: .7em;
+		height: .7em;
+		border-radius: 100%;
+		margin: 0 2em 0 0;
+	}
+}
+
+.fun {
+	.left:before {
+		background: $fun;
+	}
+	em {
+		color: $fun;
+	}
+}
+
+.work {
+	.left:before {
+		background: $work;
+	}
+	em {
+		color: $work;
+	}
+}
+
+.event {
+	.left:before {
+		background: $event;
+	}
+	em {
+		color: $event;
+	}
+}
+
+.education {
+	.left:before {
+		background: $education;
+	}
+	em {
+		color: $education;
+	}
+}

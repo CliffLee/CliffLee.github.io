@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<main class="blog">
+	<nav class="blog-nav">
+		<a class="site-title" href="{{ "/" | relative_url }}">Take me home!</a>
+	</nav>
+
+
+	<div class="blog-index">
+		{% for post in paginator.posts %}
+		<a href="{{ post.url }}" class="blog-listing">
+			<div>
+				<h1>{{ post.title }}</h1>
+				<p class="author">
+					<span class="date">{{ post.date | date_to_long_string }}</span>
+				</p>
+			</div>
+		</a>
+		{% endfor %}
+	</div>
+
+	<div class="pagination">
+		<div>
+			{% if paginator.previous_page %}
+				<a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+			{% else %}
+				<span class="previous">Previous</span>
+			{% endif %}
+			
+			{% if paginator.next_page %}
+				<a href="{{ paginator.next_page_path }}" class="next">Next</a>
+			{% else %}
+				<span class="next ">Next</span>
+			{% endif %}
+		</div>
+		<span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+		
+	</div>
+</main>

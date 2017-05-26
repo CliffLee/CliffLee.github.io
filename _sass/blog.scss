@@ -1,0 +1,174 @@
+// blog
+
+.blog {
+
+	width: 60%;
+	margin: 0.5em 0;
+
+	&-nav {
+		display: flex;
+		flex-flow: row nowrap;
+		a {
+			font-size: 1.2em;
+			text-decoration: none;
+			color: #ef5350;
+			border: 2px solid #ef5350;
+			border-radius: 30px;
+			padding: 0.5em 1em;
+			transition: all 0.2s ease-in-out;
+
+			&:hover {
+				color: #c62828;
+				border: 2px solid #c62828;
+			}
+		}
+	}
+
+	&-index {
+		margin: 0.5em 0;
+
+		.author {
+			font-size: 1.4em;
+			color: #666;
+		}
+
+		.blog-listing {
+			text-decoration: none;
+
+			div {
+				padding: 2em 1em;
+			}
+
+			h1 {
+				color: #ef5350;				
+			}
+
+			&:hover {
+				div {
+					background-color: #ccc;
+				}				
+
+				h1 {
+					color: #c62828;
+				}
+			}			
+		}
+	}
+
+}
+
+.post {
+
+	margin: 1em 0;
+	display: flex;
+	flex-flow: column nowrap;
+	width: 50%;
+
+	&-nav {
+		display: flex;
+		flex-flow: row nowrap;
+		a {
+			font-size: 1.2em;
+			text-decoration: none;
+			color: #ef5350;
+			border: 2px solid #ef5350;
+			border-radius: 30px;
+			padding: 0.5em 1em;
+			margin: 0 1em 0 0;
+			transition: all 0.2s ease-in-out;
+
+			&:hover {
+				color: #c62828;
+				border: 2px solid #c62828;
+			}
+		}
+	}
+
+	&-header {
+		margin: 0 0 2em;
+
+		.post-title {
+			font-size: 80px;
+			color: #ef5350;
+		}
+
+		.post-meta {
+			font-size: 24px;
+		}
+	}
+
+	&-article {
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: center;
+	}
+
+	code {
+		background-color: #222;
+		color: #EAEAEA;
+		border-radius: 3px;
+		padding: 2px 5px;
+		font: {
+			family: monospace;
+			size: 1.3em;
+		}
+	}
+
+	pre {
+		code {
+			max-width: inherit;
+			display: block;
+			background-color: #222;
+			color: #EAEAEA;
+			font-size: 1rem;
+			padding: 1.5rem;
+			border-top: 25px solid #CCC;
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+			word-wrap: normal;
+		}
+	}
+
+	a {
+		text-decoration: none;
+		color: #ef5350;
+	}
+
+	p {
+		color: #222;
+		margin-bottom: 1em;
+	}
+
+	figure {
+		margin: 1em;
+	}
+
+	blockquote {
+		padding: 2rem;
+		font-style: italic;
+		border-left: 3px solid #7a7a7a;
+	}
+
+	ul {
+		list-style-type: none;
+		margin-bottom: 1em;
+		padding: 0 0 0 1em;
+		li:before {
+			content: "*	";
+		}
+	}
+
+}
+
+.pagination {
+	font-size: 1.2em;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+}
+
+.scroll-top {
+	position: fixed;
+	bottom: 1em;
+	right: 2em;
+}

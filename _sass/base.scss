@@ -1,0 +1,38 @@
+// Clifford Lee
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+* {
+	margin: 0;
+	padding: 0;
+	text-rendering: optimizeLegibility;
+}
+
+body {
+	background-color: #eee;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+
+	font: {
+		family: 'Roboto Mono', monospace;
+		size: .9em;
+	}
+}
+
+.container {
+	width: 50%;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.expand {
+	cursor: pointer;
+	margin-bottom: 1em;
+}
+
+.hidden {
+	visibility: hidden;
+	margin: 0;
+	max-height: 0;
+}
